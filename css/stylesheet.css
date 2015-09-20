@@ -1,0 +1,35 @@
+
+#title {
+	position: fixed;
+	top:10px;
+	width: 100%;
+	font-family: Muli;
+	margin-top: 0px;
+	}
+
+p {
+	font-weight: 300;
+	}
+#tableOfContent {
+	position: fixed;
+	top:250px;
+	left:20px;
+	font-family: Muli;
+	margin-top: 0px;
+	width:380px;
+	text-align: center;
+	}
+
+#welcome {
+	margin-top:50px;
+}
+
+small {
+	font-weight: 300;
+	}
+
+.container {
+	width:600px;
+	margin: 40px auto;
+	
+}
