@@ -1,0 +1,33 @@
+
+html, body {
+	height:1000px;
+}
+
+#p1 {
+position: fixed;
+float: center;
+top: 50px;
+left: auto;
+width: 100%;
+background: white;
+z-index: -1;
+}
+
+#p2 {
+position: absolute;
+float: center;
+top: 320px;
+left: auto;
+width: 100%;
+background: white;
+}
+
+#p3 {
+position: fixed;
+float: center;
+top: 700px;
+left: auto;
+width: 100%;
+background: white;
+}
+

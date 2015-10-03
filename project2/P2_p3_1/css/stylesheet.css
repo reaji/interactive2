@@ -1,0 +1,33 @@
+
+
+div {
+	float: left;
+	width: 250px;
+	height: 200px;
+	
+	text-align: center;
+	display:inline-block;
+}
+
+.border1 {
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+
+}
+
+.border2 {
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.border3 {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+
+}
+h5 {
+	text-decoration: underline;
+	color: #087233;
+}

@@ -1,0 +1,25 @@
+
+
+.eye {
+position: fixed;
+width: 20px;
+height: 10px;
+left:221px;
+top:300px;
+}
+
+.thee {
+	position: fixed;
+width: 20px;
+height: 10px;
+left:40px;
+top:366px;
+}
+
+.eyeeye{
+		position: fixed;
+width: 50px;
+height: 10px;
+right:202px;
+top:750px;
+}

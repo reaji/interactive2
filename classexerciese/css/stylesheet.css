@@ -1,0 +1,62 @@
+body,html{
+	height: 100%;
+	margin:0;
+}
+
+#navbar1 {
+
+	position:fixed;
+	top:10px;
+	left:20px;
+	
+}
+
+ #cart{
+ 
+ 	position:fixed;
+	top:10px;
+	right:20px;
+	
+ }
+
+ #logo{
+ 	width:40px;
+ 	margin: -10px auto;
+ 	text-align: center;
+
+ }
+
+a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#intro {
+	height:100%;
+	width: 30%;
+	display: inline-block;
+	background: red;
+	margin:30px auto;
+	text-align: center;
+	padding-top: 30%;
+}
+
+.display{
+	display: inline-block;
+}
+
+#content{
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+	background: blue;
+	margin:30px auto;
+}
+
+#details{
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+	background: red;
+	margin:30px auto;
+}
