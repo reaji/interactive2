@@ -1,0 +1,36 @@
+
+html, body {
+	height:1000px;
+}
+
+#p1 {
+position: fixed;
+top: 50px;
+left: auto;
+background: white;
+z-index: -1;
+
+}
+
+#p2 {
+position: absolute;
+top: 320px;
+left: auto;
+background: white;
+
+}
+
+#p3 {
+position: fixed;
+top: 700px;
+left: auto;
+background: white;
+
+}
+
+h1, h2, h3,h4,h5,h6 {
+	width: 510px;
+	text-align: center;
+	font-family: 'Inconsolata' ;
+}
+

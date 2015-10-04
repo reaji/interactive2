@@ -1,13 +1,12 @@
 html, body {
-	width:100%;
+	width:2000px;
 	height: 100%;
 
 }
 
 div {
 	position: absolute;
-
-	text-align: center;
+	text-align: left;
 	
 }
 
@@ -15,18 +14,20 @@ div {
 	position: relative;
 	float:center;
 	left:25%;
-	width: 500px;
+	width: 2000px;
 	height: 50px;
 	margin:10px, 10px;
 	background: blue;
 	text-decoration: underline;
+	text-transform: inherit;
+	font-style: italic;
 	color: white;
 }
 
 .title{
-	width: 300px;
+	width: 2000px;
 	height: 100px;
 	top:200px;
 	position: fixed;
-	text-align: center;
+	text-align: left;
 }

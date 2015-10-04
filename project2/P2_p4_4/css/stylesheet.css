@@ -1,0 +1,10 @@
+div {
+	position: fixed;
+	top: 300px;
+	left: 50px;
+}
+
+p{
+	letter-spacing: 20px;
+	text-align: right;
+}
