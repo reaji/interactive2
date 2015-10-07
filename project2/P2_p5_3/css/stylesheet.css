@@ -1,0 +1,205 @@
+
+html, body {
+	top:30%;height: 
+	100%
+}
+
+@keyframes e1 {
+    0% {left:1500px;}
+    100% {left:100px;}
+    
+
+}
+
+
+.p1 {
+	font-size: 80px;
+	position: fixed;
+	left:1500px;
+    width: 1000px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-duration: 7s;
+    font-size: 80px;
+}
+
+.p2 {
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:7s;
+    animation-duration: 7s;
+    font-size: 70px;
+}
+
+.p3 {
+	font-size: 60px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:14s;
+    animation-duration: 7s;
+    
+}
+
+.p4 {
+	font-size: 50px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:21s;
+    animation-duration: 7s;
+    
+}
+
+.p5 {
+	font-size: 40px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:28s;
+    animation-duration: 7s;
+    
+}
+
+.p6 {
+	font-size: 30px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:35s;
+    animation-duration: 7s;
+    
+}
+
+.p7 {
+	font-size: 20px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:42s;
+    animation-duration: 7s;
+    
+}
+
+
+.p8 {
+	font-size: 10px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:49s;
+    animation-duration: 7s;
+    
+}
+
+.p9 {
+	font-size: 20px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:56s;
+    animation-duration: 7s;
+    
+}
+
+.p10 {
+	font-size: 30px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:63s;
+    animation-duration: 7s;
+    
+}
+
+.p11 {
+	font-size: 40px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:70s;
+    animation-duration: 7s;
+    
+}
+
+.p12 {
+	font-size: 50px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:77s;
+    animation-duration: 7s;
+    
+}
+
+.p13 {
+	font-size: 60px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:84s;
+    animation-duration: 7s;
+    
+}
+.p14 {
+	font-size: 70px;
+	position: fixed;
+	left:1500px;
+    width: 700px;
+    height: 100px;
+    top:30%;
+    animation-name: e1;
+    animation-delay:91s;
+    animation-duration: 7s;
+    
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+div{
+	position: fixed;
+	bottom: 10px;
+}
+
+

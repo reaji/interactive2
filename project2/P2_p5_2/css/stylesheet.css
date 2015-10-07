@@ -1,0 +1,38 @@
+html,body {
+	width:3000px;
+}
+
+@keyframes bo {
+    0% {border-bottom:2px solid black;}
+    20% {border-bottom:2px solid black;}
+    40% {border-bottom:20px solid yellow ;}
+    60% {border-bottom:2px  solid blue ;}
+    0% {border-bottom:20px solid cyan ;}
+    100% {border-bottom:1px solid red ;}
+
+
+
+}
+
+div {
+	float: left;
+	width: 250px;
+	height: 195px;
+	border-bottom: 1px solid black;
+	text-align: center;
+	display:block;
+	animation-name: bo;
+    animation-duration: 10s;
+    animation:infinite;
+}
+
+
+.border3 {
+	vertical-align: text-bottom;
+   border-bottom: none;
+
+}
+h5 {
+	vertical-align: text-bottom;
+	text-decoration: underline;
+}

@@ -1,0 +1,55 @@
+
+
+
+@keyframes back {
+    0% {background-color: black;}
+    33% {background-color: black;}
+    66%{background-color: red;}
+    100% {background-color: black;}
+}
+
+@keyframes hot {
+    0% {color: white;}
+    33% {color: red;}
+    66% {color: white;}
+    100% {color: white;}
+}
+
+@keyframes scale {
+    0% {font-size: 20px;}
+    33% {font-size: 20px;}
+    66% {font-size: 45px;}
+    100% {font-size: 20px;}
+}
+
+html, body {
+animation: back 10s infinite;
+width: 100%;
+}
+
+.d1 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 100%;
+	font-size: 20px;
+	color: white;
+	animation: scale 10s infinite;
+	text-align: justify;
+
+}
+
+.d2 {
+	position: fixed;
+	right: 0px;
+	top: 700px;
+	width: 500px;
+	height: 100%;
+	color: white;
+	text-align: justify;
+}
+
+.hot {
+	animation:hot 10s infinite;
+}
+
