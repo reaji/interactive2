@@ -21,7 +21,7 @@ html, body {
 	font-family: 'Lobster', cursive;
 }
 
-h1 {
+.h1 {
 	position: fixed;
 	float: right;
 	text-align: center;

@@ -22,7 +22,7 @@ html, body {
 	text-align: justify;
 }
 
-h1 {
+.title {
 	position: fixed;
 	float: right;
 	text-align: center;

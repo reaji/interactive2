@@ -15,14 +15,14 @@ html,body{
 }
 
 
-div {
+.div {
 	position: fixed;
 	top: 300px;
 	left: 50px;
 	animation:wind 1s infinite;
 	}
 
-p{
+.p{
 	position: absolute;
 	display: block;
 	width: 16500px;

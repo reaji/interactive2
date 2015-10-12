@@ -1,10 +1,10 @@
-div {
+.div {
 	position: fixed;
 	top: 300px;
 	left: 50px;
 }
 
-p{
+.p{
 	letter-spacing: 20px;
 	text-align: right;
 }
