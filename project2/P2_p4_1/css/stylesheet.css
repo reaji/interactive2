@@ -4,31 +4,37 @@ div {
 	float: left;
 	width: 250px;
 	height: 200px;
-	display:inline-block;
+	display:block;
 	font-family: 'Montserrat', sans-serif;
 }
 
 .border1 {
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
+	border-left: 50px dotted black;
+	border-bottom: 50px solid black;
+	border-right: 50px solid black;
+	display:block;
 
 }
 
 .border2 {
-	border-left: 1px solid black;
-	border-top: 1px solid black;
-	border-right: 1px solid black;
+	border-left:25px solid black;
+	border-top: 25px dotted black;
+	border-right: 25px solid black;
+		display:block;
 }
 
 .border3 {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-
+	border-left: 5px solid black;
+	border-right: 5px dotted black;
+	display:block;
 }
 h6 {
 	text-decoration: underline;
-	color: #087233;
+	font-size: 100px;
+	background: black;
+	color: white;
+	display: inline;
+
 }
 
 h1 {

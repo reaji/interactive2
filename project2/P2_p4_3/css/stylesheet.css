@@ -1,24 +1,26 @@
-html, body {
-	height: 100%
-}
 
+body, html {
+
+}
 .d1 {
 	position: absolute;
 	top: 500px;
-	width: 100%;
-	height: 750px;
-	text-align: center;
+	width: 2000px;
+	text-align: left;
 	font-family: 'Lobster', cursive;
+	background: white;
 }
 
 .d2 {
 	position: absolute;
 	left: 500px;
-	top: 500px;
+	top: 800px;
 	width: 1500px;
 	height: 100%;
 	text-align: center;
 	font-family: 'Lobster', cursive;
+	color: black;
+	z-index: +1;
 }
 
 .h1 {

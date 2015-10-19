@@ -6,6 +6,7 @@ width: 20px;
 height: 10px;
 left:221px;
 top:300px;
+background: black;
 }
 
 .thee {
@@ -14,6 +15,7 @@ width: 20px;
 height: 10px;
 left:40px;
 top:366px;
+
 }
 
 .eyeeye{
@@ -22,4 +24,21 @@ width: 50px;
 height: 10px;
 right:202px;
 top:750px;
+border:  15px dotted black;
+}
+
+ul {
+	border:  15px solid black;
+}
+
+li {
+	border:  0.5px dotted black;
+}
+
+a {
+	border:  0.5px solid black;
+}
+
+strong {
+	border:  5px solid black;
 }
