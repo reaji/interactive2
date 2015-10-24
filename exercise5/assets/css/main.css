@@ -1,5 +1,6 @@
 *{
 	font-family: 'Open Sans', sans-serif;
+    
 }
 
 body { 	width:100%; 
@@ -71,7 +72,7 @@ body { 	width:100%;
 .logotypef {
     display: inline-block;
     font-weight: 400;
-    margin-top: 22px;
+    margin-top: 24px;
     margin-left: 2%;
     vertical-align: top;
     letter-spacing: 3.5px;
@@ -82,7 +83,7 @@ body { 	width:100%;
 .csatypef {
     display: inline-block;
     font-weight: 400;
-    margin-top: 22px;
+    margin-top: 24px;
     margin-left: 2%;
     vertical-align: top;
     letter-spacing: 3.5px;

@@ -12,15 +12,15 @@ p {
 	}
 #tableOfContent {
 	position: fixed;
-	top:150px;
-	left:20px;
+	display: inline-block;
+	top:15%;
+	left:2%;
 	font-family: Muli;
 	margin-top: 0px;
-	width:380px;
-	text-align: center;
-	line-height: 65%
+	width:400px;
+	text-align: left;
+	line-height: 40%
 	}
-
 #welcome {
 	margin-top:50px;
 }
