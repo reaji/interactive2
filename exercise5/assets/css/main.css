@@ -1,0 +1,95 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body { 	width:100%; 
+	margin-top: -13px;
+	margin-left: 0; 
+	}
+
+#top {width:100%; margin-top: -13px;height: 5px;}
+
+
+@media screen and (max-width: 768px) {
+#title {
+	margin: -12px auto;
+	height: 50px;
+	width: 100%;
+ background: #eeeeee;
+
+}
+
+#logo {
+	width: 50px;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+#logotype {
+    display: inline-block;
+    width: 130px;
+    font-weight: 400;
+    margin-top: 19px;
+    margin-left: 10px;
+    vertical-align: top;
+    letter-spacing: 2px;
+    line-height: 10px;
+    font-size: 9.2px;
+}
+
+#csatype {
+    display: inline-block;
+    width: 130px;
+    font-weight: 400;
+    margin-top: 19px;
+    margin-left: 1%;
+    vertical-align: top;
+    letter-spacing: 2px;
+    line-height: 10px;
+    font-size: 9.2px;
+}
+
+#register{
+    margin-top: 10px;
+}
+
+
+}
+
+.titlef {
+    margin: -11px auto;
+    height:75px;
+    width: 850px; 
+}
+
+.logof {
+	width: 80px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.logotypef {
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-left: 2%;
+    vertical-align: top;
+    letter-spacing: 3.5px;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+.csatypef {
+    display: inline-block;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-left: 2%;
+    vertical-align: top;
+    letter-spacing: 3.5px;
+    line-height: 150%;
+    font-size: 14px;
+}
+
+.typeformtitle {
+    font-weight: 300;
+}
