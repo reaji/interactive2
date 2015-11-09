@@ -1,7 +1,7 @@
 
 /*eye animation*/
 
-/*@keyframes eyemove {
+@keyframes eyemove {
     0%   {left: 20px}
     10%  {left:0px;}
     30%  {left:40px}
@@ -9,7 +9,7 @@
     70% {left:40px}
     90% {left:0px}
     100% {left:20px}
-}*/
+}
 
 
 
@@ -635,7 +635,7 @@ border-bottom: 10px solid black;
 	width: 60px;
 	border-right:15px solid black;
 	transform:skew(45deg,0);	
-	right: 5px;
+	right: 25px;
 	bottom: -5px;
 
 	
@@ -648,14 +648,14 @@ border-bottom: 10px solid black;
 	width: 20px;
 	border-left:15px solid black;
 	transform:skew(-45deg,0);	
-	left: 125px;
+	left: 105px;
 	top: 100px;	
 }
 
 .Q .eye{
 	position: absolute;
 	top:10px;
-	left:10px;
+	left:0;
 	z-index: 1;
 
 }
@@ -769,8 +769,7 @@ border-bottom: 10px solid black;
 	top:40px;
 	left:40px;
 	z-index: 1;
-	transform: rotate(-45deg);
-
+	
 }
 
 /*WWWWWWWWWWWWWW*/
