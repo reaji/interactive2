@@ -809,3 +809,174 @@ border-bottom: 10px solid black;
 	z-index: 1;
 	transform: rotate(90deg);
 }
+
+
+
+/*UUUUUUUUUUU*/
+.U {
+	position:relative;
+	height: 150px;
+	width: 150px;
+	border: 10px solid black;
+	border-radius: 50%;
+}
+
+.U:before {
+	position: absolute;
+	content:'';
+	height: 95px;
+	width: 170px;
+	top:-20px;
+	left: -10px;
+	background: white;
+
+}
+
+.U:after{
+	position:absolute;
+	content:'';
+	width: 10px;
+	height: 85px;
+	background: black;
+	left: 70px;
+	bottom: 0;
+}
+
+.U .eye{
+	position: absolute;
+	top:30px;
+	left:30px;
+	z-index: 1;
+}
+
+
+/*YYYYYYYYYYYYYYYYY*/
+.Y{
+	position:relative;
+	top:92.5px;
+	left:52px;
+	width:10px;
+	height:50px;
+	background-color:#000000;
+}
+.Y:before{
+	transform:skew(45deg,0);
+	position:absolute;
+	content:'';
+	top:-80px;
+	left:-21px;
+	width:15px;
+	height:80px;
+	background-color:#000000;
+}
+.Y:after{
+	transform:skew(-45deg,0);
+	position:absolute;
+	content:'';
+	top:-80px;
+	right:-21px;
+	width:15px;
+	height:80px;
+	background-color:#000000;
+}
+
+.Y .eye{
+	position: absolute;
+	top:-75px;
+	left:-40px;
+	z-index: 1;
+}
+
+
+/*FFFFFFFFFFFFFFFFFF*/
+.letter .F {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.F{
+	position:relative;
+	top:12.5px;
+	left:10px;
+	width:75px;
+	height:110px;
+	border-width:10px 0 0 10px;
+	border-color:#000000;
+	border-style:solid;
+}
+
+.F:before{
+	position:absolute;
+	content:'';
+	top:55px;
+	left:0px;
+	width:35px;
+	height:10px;
+	background-color:#000000;
+}
+
+.F:after{
+	position: absolute;
+	content: '';
+	width: 60px;
+	height: 60px;
+	border-width:0 0 10px 10px;
+	border-radius: 0 0 15px 20px;
+	border-color:#000000;
+	border-style:solid;
+	transform:rotate(-45deg);
+	top:-35px;
+
+}
+
+.F .eye{
+	position: absolute;
+	top:-50px;
+	left:-50px;
+	z-index: 1;
+}
+
+/*GGGGGGGGGGGGGGG*/
+
+.G{
+	position: relative;
+	top:-35px;
+	width: 80px;
+	height: 80px;
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+	transform:rotate(45deg);
+	border-radius:0 15px 0 15px;
+}
+
+.G:before{
+	position: absolute;
+	content: '';
+	top:70px;
+	left: 90px;
+	width: 80px;
+	height: 80px;
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+	transform:rotate(90deg);
+}
+
+.G:after{
+	position: absolute;
+	content: '';
+	top:25px;
+	left: -3px;
+	width: 115px;
+	height: 50px;
+	border-top: 10px solid black;
+	border-radius: 15px 15px 0 0;
+	transform:rotate(-45deg);
+
+}
+
+.G .eye {
+	position: absolute;
+	top:35px;
+	left:35px;
+	z-index: 1;
+	transform:rotate(-45deg);
+}
