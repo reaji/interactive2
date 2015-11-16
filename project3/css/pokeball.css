@@ -1,12 +1,41 @@
+/* pokeball animation */
+
+.pokeball {
+	background: gray;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pokeball.one {
+	margin-top: 100px;
+	height: 50px;
+	width: 100px;
+	border-radius: 100px 100px 0 0;
+}
+
+.pokeball.two {
+	margin-bottom: 100px;
+	height: 50px;
+	width: 100px;
+	border-radius: 0 0 100px 100px;
+}
+
+.letters.display {
+	display: none;
+}
 
 
 /*eye animation*/
 
 @keyframes eyemove {
-    0%   {left: 25px}
-    30%  {left: 0px}
-    60%  {left: 50px}
-    100% {left:25px}
+    0%   {left: 20px}
+    10%  {left:0px;}
+    30%  {left:40px}
+    50%  {left:0px}
+    70% {left:40px}
+    90% {left:0px}
+    100% {left:20px}
 }
 
 .letter-definition {
@@ -25,10 +54,10 @@
 .letter{
 	position: relative;
 	height: 180px;
-/*	width: 180px;*/
+	/*width: 180px;*/
 	display: inline-block;
-	margin: 10px;
-/*	background: yellow;*/
+	margin: 20px;
+	/*background: yellow;*/
 }
 
 /*The EYE*/
@@ -49,7 +78,7 @@
 	width: 20px;
 	background: black;
 	border-radius: 50%;
-	animation: eyemove 5s ease-in-out infinite;
+	animation: eyemove 10s ease-in-out infinite;
 }
 
 .eye:after{
@@ -62,14 +91,9 @@
 	background: white;
 	border-radius: 50%;
 	transform: rotate(-45deg);
-	animation: eyemove 5s ease-in-out infinite;
+	animation: eyemove 10s ease-in-out infinite;
 }
 /*letter H*/
-
-.letter .H {
-	margin-left: -10px;
-	margin-right: -10px;
-}
 
 .H {
 	position: relative;
@@ -110,17 +134,14 @@
 
 /*letter O*/
 
-.letter .O{
-	margin-left: -10px;
-	margin-right: -10px;
-}
-
 .O {
 	position: relative;
 	height: 150px;
 	width: 150px;
 	border:10px solid black;
 	border-radius: 50%;
+	margin: 0 auto;
+
 }
 
 .O:before {
@@ -146,18 +167,17 @@
 
 /*letter D*/
 
-.letter .D{
-	margin-left: -45px;
-	margin-right: -10px;
-}
+/*.letter .D{
+	margin-left: -35px;
+}*/
 
 .D {
-	position: relative;
+	position: relative;;
 	height: 150px;
 	width: 150px;
 	border:10px solid black;
 	border-radius: 50%;
-	z-index: -1;
+	z-index: ;
 }
 
 .D:before {
@@ -195,11 +215,14 @@
 
 /*letter N*/
 
+
+
 .N {
 	position:relative;
 	height: 150px;
 	width: 150px;
-	
+	margin: 0 auto;
+
 	}
 
 .N:before {
@@ -234,13 +257,13 @@
 
 
 /*AAAAAAAAAAAAAAAAAAAAA*/
-.letter .A {
-	margin-left: -30px;
-	width: 120px
-}
+/*.letter .A {
+	margin-left: 25px;
+}*/
 
 .A {
-position:relative;
+	position: relative;
+width:150px;
 height: 150px;
 /*left:30px;
 width:60px;
@@ -285,13 +308,9 @@ background-color:#000000;
 
 
 /*BBBBBBBBBBBBBBBBBB*/
-.letter .B{
-	margin-left: -20px;
-	width: 100px;
-}
 .B {
-position:relative;
 height: 120px;
+width: 100px;
 border-bottom: 10px solid black;
 }
 
@@ -328,15 +347,9 @@ border-bottom: 10px solid black;
 
 
 /*CCCCCCCCCCCCCCCC*/
-.letter .C {
-	margin-left: -10px;
-	margin-right: -10px;
-	width: 150px;
-}
-
 .C {
-	position:relative;
 	height: 150px;
+	width: 150px;
 	border: 10px solid black;
 	border-radius: 50%;
 }
@@ -373,13 +386,12 @@ border-bottom: 10px solid black;
 
 
 /*EEEEEEEEEEEEEEEEE*/
-.letter .E{
-	width: 150px;
-}
+
 .E {
-	position:relative;
+	position: relative;
 	height: 150px;
-	
+	width: 150px;
+	margin: 20px auto;
 }
 
 .E:before {
@@ -413,15 +425,12 @@ border-bottom: 10px solid black;
 
 
 /*IIIIIIIIIIIIIII*/
-.letter .I{
-	margin-left: -40px;
-	width: 110px;
-}
+
 
 .I {
 	position: relative;
 	height: 150px;
-	
+	width: 150px;
 }
 
 .I:before {
@@ -447,7 +456,8 @@ border-bottom: 10px solid black;
 .P{
 	position: relative;
 	height: 150px;
-	width: 80px;
+	width: 110px;
+	margin: 0 auto;
 }
 
 .P:before{
@@ -456,7 +466,7 @@ border-bottom: 10px solid black;
 	height: 130px;
 	width: 10px;
 	background: black;	
-	left: 0px;
+	left: 10px;
 	top: 50px;
 	
 }
@@ -468,14 +478,14 @@ border-bottom: 10px solid black;
 	width: 20px;
 	border-left:15px solid black;
 	transform:skew(45deg,0);	
-	left: 0px;
+	left: 10px;
 	top: 5px;	
 }
 
 .P .eye{
 	position: absolute;
 	top:10px;
-	left:0px;
+	left:10px;
 	z-index: 1;
 
 }
@@ -487,7 +497,7 @@ border-bottom: 10px solid black;
 .J{
 	position: relative;
 	height: 150px;
-	width: 90px;
+	width: 125px;
 }
 
 .J:before{
@@ -497,7 +507,7 @@ border-bottom: 10px solid black;
 	width: 20px;
 	border-left:15px solid black;
 	transform:skew(-45deg,0);	
-	right: -25px;
+	right: 10px;
 	top: 5px;
 	
 }
@@ -506,7 +516,7 @@ border-bottom: 10px solid black;
 	position:absolute;
 	content:'';
 	bottom:-19px;
-	right:30px;
+	right:65px;
 	width:50px;
 	height:60px;
 	border-width:0 10px 10px 10px;
@@ -525,7 +535,7 @@ border-bottom: 10px solid black;
 
 /*KKKKKKKKKKKK*/
 .letter .K{
-	margin-left: -45px;
+	margin:auto;
 }
 
 .K {
@@ -569,7 +579,8 @@ border-bottom: 10px solid black;
 .L{
 	position: relative;
 	height: 150px;
-	width: 100px;
+	width: 110px;
+	margin: 0 auto;
 }
 
 .L:before{
@@ -577,7 +588,7 @@ border-bottom: 10px solid black;
 	content: '';
 	height: 120px;
 	width: 65px;
-	left: 40px;
+	left: 50px;
 	top: 50px;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
@@ -591,25 +602,20 @@ border-bottom: 10px solid black;
 	width: 20px;
 	border-left:15px solid black;
 	transform:skew(45deg,0);	
-	left: 0px;
+	left: 10px;
 	top: 5px;	
 }
 
 .L .eye{
 	position: absolute;
 	top:10px;
-	left:0px;
+	left:10px;
 	z-index: 1;
 
 }
 
 
 /*MMMMMMMMMMMMMMMMMM*/
-.letter .M{
-	margin-left: -10px;
-	margin-right: -10px;
-}
-
 .M {
 	position:relative;
 	height: 150px;
@@ -618,6 +624,8 @@ border-bottom: 10px solid black;
 	border-radius: 50%;
 	background: white;
 	transform: rotate(45deg);
+	margin: 0 auto;
+
 	
 }
 
@@ -656,12 +664,15 @@ border-bottom: 10px solid black;
 
 /*QQQQQQQQQQQQQQQQQ*/
 .letter .Q{
-margin-left:-10px;
+margin: 0 auto;
+
 }
 .Q{
 	position: relative;
 	height: 150px;
-	width: 130px;
+	width: 110px;
+
+
 }
 
 .Q:before{
@@ -671,7 +682,7 @@ margin-left:-10px;
 	width: 60px;
 	border-right:15px solid black;
 	transform:skew(45deg,0);	
-	right: 45px;
+	right: 25px;
 	bottom: -5px;
 
 	
@@ -700,14 +711,14 @@ margin-left:-10px;
 
 
 /*RRRRRRRRRRRRRRRRRRR*/
-.letter .R{
-	margin-left: -20px;
-}
+
 
 .R{
 	position: relative;
 	height: 150px;
-	width: 105px;
+	width: 150px;
+	margin: 0 auto;
+
 }
 
 .R:before{
@@ -741,9 +752,8 @@ margin-left:-10px;
 
 /*TTTTTTTTTTTTTTTTTTTTTTTTT*/
 .letter .T {
-	margin-left: -10px;
-	margin-top: 10px;
-	margin-right: -10px;
+	margin: 10px auto;
+
 }
 
 .T {
@@ -776,7 +786,8 @@ margin-left:-10px;
 	position: relative;
 	height: 150px;
 	width: 150px;
-	margin-left: -25px;
+	margin: 0 auto;
+
 
 }
 
@@ -812,9 +823,8 @@ margin-left:-10px;
 
 /*WWWWWWWWWWWWWW*/
 .letter .W{
-	margin-left: -10px;
-	margin-right: 10px;
-	margin-top: 45px;
+	margin: 0 auto;
+
 }
 .W {
 	position:relative;
@@ -862,8 +872,8 @@ margin-left:-10px;
 	width: 150px;
 	border: 10px solid black;
 	border-radius: 50%;
-	margin-left: -10px;
-	margin-right: -10px;
+	margin: 0 auto;
+
 }
 
 .U:before {
@@ -897,7 +907,7 @@ margin-left:-10px;
 
 /*YYYYYYYYYYYYYYYYY*/
 .letter .Y{
-	margin-right: 105px;
+	margin: 0 auto;
 }
 .Y{
 	position:relative;
@@ -938,8 +948,8 @@ margin-left:-10px;
 
 /*FFFFFFFFFFFFFFFFFF*/
 .letter .F {
-	margin-left: 20px;
-	margin-top: 30px;
+margin: 30px auto;
+
 }
 .F{
 	position:relative;
@@ -987,6 +997,7 @@ margin-left:-10px;
 
 .G{
 	position: relative;
+	margin: 0 auto;
 	top:-35px;
 	width: 80px;
 	height: 80px;
@@ -1038,9 +1049,8 @@ margin-left:-10px;
 	position: relative;
 	height: 150px;
 	width: 150px;
-	margin-left: -10px;
-	margin-right: -10px;
-	margin-top: 20px;
+	margin: 0 auto;
+
 	}
 
 .S:before {
@@ -1083,6 +1093,7 @@ margin-left:-10px;
 
 .V{
 	position: relative;
+	margin: 0 auto;
 	top:-35px;
 	width: 120px;
 	height: 120px;
@@ -1090,8 +1101,6 @@ margin-left:-10px;
 	border-right: 10px solid black;
 	transform:rotate(45deg);
 	border-radius:0 15px 0 15px;
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
 
@@ -1133,9 +1142,7 @@ margin-left:-10px;
 /*ZZZZZZZZZZZZZZZZZZZZZZ*/
 
 .letter .Z{
-	margin-left: -25px;
-	margin-right: -30px;
-	margin-top: 15px;
+margin: 20px auto;
 
 }
 .Z{
