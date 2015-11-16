@@ -19,6 +19,81 @@ a{
 	text-decoration: none;
 	color: #555;
 }
+.top{
+	position: fixed;
+	height: 50px;
+	background: white;
+	left: 0;
+	width: 100%;
+	border-bottom:3px solid #ccc;
+	z-index: +5;
+}
+.title {
+	position: relative;
+	color:#444;
+	font-size: 30px;
+	font-weight: 700;
+	min-width: 200px;
+	top: 15px;
+	left: 0;
+}
+
+.themenu{
+	position: absolute;
+	display: inline-block;
+	right:0;
+	top:5px;
+
+}
+.menu {
+	display: inline-block;
+	font-size: 24px;
+	font-weight: 400;
+	color:#444;
+	margin:0 20px;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+.top{
+	position: fixed;
+	margin: -15px auto;
+	height: 115px;
+	background: white;
+	width: 100%;
+	border-bottom:3px solid #ccc;
+	z-index: +5;
+}
+.title {
+	font-size: 30px;
+	font-weight: 700;
+	color:#444;
+	width: 100%;
+	margin:25px auto;
+	text-align: center;
+	top: 0;
+	left: 0;
+}
+
+.themenu{
+	position: relative;
+	width: 100%;
+	left:-40px;
+    right:0;
+    margin:0 auto;
+    top:-25px;
+
+}
+.menu {
+	font-size: 24px;
+	font-weight: 400;
+	color:#444;
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+}
+
+}
 </style>
 
 </head>
