@@ -1,3 +1,13 @@
+.table{
+	position: fixed;
+	top:120px;
+	right: 10px;
+	font-family: sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+
 /* pokeball animation */
 
 .pokeball-side{
