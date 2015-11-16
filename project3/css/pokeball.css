@@ -1,10 +1,55 @@
 /* pokeball animation */
 
-.pokeball {
-	background: gray;
-	cursor: pointer;
+.pokeball-side{
+	position: relative;
+	display: inline-block;
+	top: -500px;
+}
+
+.pokeball-side-f{
+	position: relative;
+	display: inline-block;
+	top: -600px;
+}
+
+.pokeball-side-i{
+	position: relative;
+	display: inline-block;
+	top: -400px;
+}
+.css-side{
+	position: relative;
+	display: inline-block;
+	left: 200px;
+	top: 0;
+	width: 500px;
+	font-family: 'courier'
+
+}
+
+.content1{
+	margin-top: 100px;
+	max-width: 380px;
 	margin-left: auto;
 	margin-right: auto;
+	max-height: 610px;
+}
+
+.content2{
+	margin-top: 100px;
+	max-width: 380px;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 610px;
+	background: #eee;
+}
+
+
+.pokeball {
+	background: #ccc;
+	cursor: pointer;
+	/*margin-left: auto;
+	margin-right: auto;*/
 }
 
 .pokeball.one {
@@ -12,6 +57,25 @@
 	height: 50px;
 	width: 100px;
 	border-radius: 100px 100px 0 0;
+}
+.pokeball.one:before{
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 50px;
+	border-bottom: 4px solid white;
+}
+
+.pokeball.one:after {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 30px;
+	margin: 31.5px 31.5px;
+	border-radius: 50%;
+	background: #ccc;
+	border: 4px solid white;
+	
 }
 
 .pokeball.two {
@@ -29,14 +93,12 @@
 /*eye animation*/
 
 @keyframes eyemove {
-    0%   {left: 20px}
-    10%  {left:0px;}
-    30%  {left:40px}
-    50%  {left:0px}
-    70% {left:40px}
-    90% {left:0px}
-    100% {left:20px}
+    0%   {left: 25px}
+    30%  {left: 0px}
+    60%  {left: 50px}
+    100% {left:25px}
 }
+
 
 .letter-definition {
     display: none;
@@ -54,10 +116,7 @@
 .letter{
 	position: relative;
 	height: 180px;
-	/*width: 180px;*/
-	display: inline-block;
 	margin: 20px;
-	/*background: yellow;*/
 }
 
 /*The EYE*/
@@ -78,7 +137,7 @@
 	width: 20px;
 	background: black;
 	border-radius: 50%;
-	animation: eyemove 10s ease-in-out infinite;
+	animation: eyemove 5s ease-in-out infinite;
 }
 
 .eye:after{
@@ -91,7 +150,7 @@
 	background: white;
 	border-radius: 50%;
 	transform: rotate(-45deg);
-	animation: eyemove 10s ease-in-out infinite;
+	animation: eyemove 5s ease-in-out infinite;
 }
 /*letter H*/
 
@@ -108,10 +167,7 @@
 	content: '';
 	height: 75px;
 	width: 150px;
-	/*background: black;*/
 	border-bottom:10px solid black;
-	/*border-right:5px solid black;*/
-	/*border-radius: 50%;*/
 }
 
 .H:after{
@@ -141,6 +197,8 @@
 	border:10px solid black;
 	border-radius: 50%;
 	margin: 0 auto;
+	left: -75px;
+	top: 10px;
 
 }
 
@@ -177,7 +235,8 @@
 	width: 150px;
 	border:10px solid black;
 	border-radius: 50%;
-	z-index: ;
+	left: -80px;
+	top: 10px;
 }
 
 .D:before {
@@ -187,11 +246,7 @@
 	left: -77px;
 	height: 75px;
 	width: 150px;
-	/*background: black;*/
 	border-right:10px solid black;
-	/*border-right:5px solid black;*/
-	/*border-radius: 50%;*/
-	z-index: ;
 }
 
 .D:after{
@@ -202,7 +257,6 @@
 	left: -12px;
 	top: -10px;
 	background: white;
-	z-index: ;
 }
 
 .D .eye{
@@ -210,7 +264,6 @@
 	top:30px;
 	left:30px;
 	z-index: 1;
-
 }
 
 /*letter N*/
@@ -222,7 +275,8 @@
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
-
+left: -65px;
+top: 10px;
 	}
 
 .N:before {
@@ -262,9 +316,11 @@
 }*/
 
 .A {
-	position: relative;
+position: relative;
 width:150px;
 height: 150px;
+left: -65px;
+top:20px;
 /*left:30px;
 width:60px;
 height:90px;
@@ -273,7 +329,7 @@ border-radius:50%; */
 }
 
 .A:before {
-	position: absolute;
+position: absolute;
 transform:skew(-19deg,0);
 content:'';
 
@@ -312,6 +368,8 @@ background-color:#000000;
 height: 120px;
 width: 100px;
 border-bottom: 10px solid black;
+left: -45px;
+top:10px;
 }
 
 .B:before {
@@ -352,12 +410,13 @@ border-bottom: 10px solid black;
 	width: 150px;
 	border: 10px solid black;
 	border-radius: 50%;
+	left: -70px;
 }
 
 .C:before {
 	position: absolute;
 	content:'';
-	height: 75px;
+	height: 80px;
 	width: 75px;
 	bottom: -10px;
 	right: -10px;
@@ -392,6 +451,8 @@ border-bottom: 10px solid black;
 	height: 150px;
 	width: 150px;
 	margin: 20px auto;
+	left: -65px;
+	top:10px;
 }
 
 .E:before {
@@ -431,6 +492,8 @@ border-bottom: 10px solid black;
 	position: relative;
 	height: 150px;
 	width: 150px;
+	left: -65px;
+	top: 10px;
 }
 
 .I:before {
@@ -458,6 +521,7 @@ border-bottom: 10px solid black;
 	height: 150px;
 	width: 110px;
 	margin: 0 auto;
+	left: -45px;
 }
 
 .P:before{
@@ -498,6 +562,8 @@ border-bottom: 10px solid black;
 	position: relative;
 	height: 150px;
 	width: 125px;
+	left: -40px;
+	top: 10px;
 }
 
 .J:before{
@@ -542,6 +608,8 @@ border-bottom: 10px solid black;
 	position: relative;
 	height: 150px;
 	width: 150px;
+	left: -65px;
+	top: 10px;
 }
 
 .K:before {
@@ -581,6 +649,7 @@ border-bottom: 10px solid black;
 	height: 150px;
 	width: 110px;
 	margin: 0 auto;
+	left: -45px;
 }
 
 .L:before{
@@ -625,7 +694,9 @@ border-bottom: 10px solid black;
 	background: white;
 	transform: rotate(45deg);
 	margin: 0 auto;
-
+	left: -75px;
+	top: 10px;
+z-index: -1;
 	
 }
 
@@ -644,8 +715,8 @@ border-bottom: 10px solid black;
 	
 	position:absolute;
 	content:'';
-	width: 75px;
-	height: 75px;
+	width: 70px;
+	height: 70px;
 	border-left: 10px solid black;
 	left:25px;
 	top: -20px;
@@ -671,7 +742,8 @@ margin: 0 auto;
 	position: relative;
 	height: 150px;
 	width: 110px;
-
+left: -65px;
+top: 5px;
 
 }
 
@@ -718,7 +790,7 @@ margin: 0 auto;
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
-
+left: -45px;
 }
 
 .R:before{
@@ -761,6 +833,8 @@ margin: 0 auto;
 	width: 100px;
 	height:150px;
 	border-top: 10px solid black;
+	left: -40px;
+	top: 20px;
 }
 
 .T:before {
@@ -787,7 +861,7 @@ margin: 0 auto;
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
-
+left: -75px;
 
 }
 
@@ -831,6 +905,8 @@ margin: 0 auto;
 	height: 150px;
 	width: 150px;
 	transform: rotate(-90deg);
+	top: 60px;
+	left: -75px;
 }
 
 .W:before {
@@ -873,7 +949,8 @@ margin: 0 auto;
 	border: 10px solid black;
 	border-radius: 50%;
 	margin: 0 auto;
-
+left: -75px;
+z-index: -1;
 }
 
 .U:before {
@@ -912,7 +989,7 @@ margin: 0 auto;
 .Y{
 	position:relative;
 	top:100px;
-	left:52px;
+	left:0;
 	width:10px;
 	height:50px;
 	background-color:#000000;
@@ -953,8 +1030,8 @@ margin: 30px auto;
 }
 .F{
 	position:relative;
-	top:12.5px;
-	left:10px;
+	top:42.5px;
+	left:20px;
 	width:75px;
 	height:110px;
 	border-width:10px 0 0 10px;
@@ -998,7 +1075,8 @@ margin: 30px auto;
 .G{
 	position: relative;
 	margin: 0 auto;
-	top:-35px;
+	top:-25px;
+	left: -15px;
 	width: 80px;
 	height: 80px;
 	border-bottom: 10px solid black;
@@ -1050,7 +1128,8 @@ margin: 30px auto;
 	height: 150px;
 	width: 150px;
 	margin: 0 auto;
-
+left: -65px;
+top: 30px;
 	}
 
 .S:before {
@@ -1095,6 +1174,7 @@ margin: 30px auto;
 	position: relative;
 	margin: 0 auto;
 	top:-35px;
+	left: -55px;
 	width: 120px;
 	height: 120px;
 	border-bottom: 10px solid black;
@@ -1149,6 +1229,8 @@ margin: 20px auto;
 	position: relative;
 	width: 150px;
 	height: 150px;
+	left: -65px;
+	top: 15px;
 }
 
 .Z:before{
