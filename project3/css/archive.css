@@ -82,7 +82,7 @@
 .H:before {
 	position: absolute;
 	content: '';
-	height: 75px;
+	height: 70px;
 	width: 150px;
 	/*background: black;*/
 	border-bottom:10px solid black;
@@ -166,7 +166,7 @@
 	top: 0;
 	left: -77px;
 	height: 75px;
-	width: 150px;
+	width: 147px;
 	/*background: black;*/
 	border-right:10px solid black;
 	/*border-right:5px solid black;*/
@@ -178,7 +178,7 @@
 	position: absolute;
 	content: '';
 	height: 170px;
-	width: 85px;
+	width: 82px;
 	left: -12px;
 	top: -10px;
 	background: white;

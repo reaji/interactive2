@@ -179,14 +179,19 @@
 	width: 150px;
 	border:10px solid black;
 	border-radius: 50%;
+	margin: 0 auto;
+	left: -54px;
+	top: 10px;
+
 }
 
 .H:before {
 	position: absolute;
 	content: '';
-	height: 75px;
+	height: 70px;
 	width: 150px;
 	border-bottom:10px solid black;
+
 }
 
 .H:after{
@@ -264,7 +269,7 @@
 	top: 0;
 	left: -77px;
 	height: 75px;
-	width: 150px;
+	width: 147px;
 	border-right:10px solid black;
 }
 
@@ -272,7 +277,7 @@
 	position: absolute;
 	content: '';
 	height: 170px;
-	width: 85px;
+	width: 82px;
 	left: -12px;
 	top: -10px;
 	background: white;
