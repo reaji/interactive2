@@ -6,6 +6,10 @@ $(document).ready(function(){
 		$(this).parents('div').find('.letters.display').slideToggle();
 	});
 
+	$('.pokeball.one, .pokeball.two').click(function(){
+		$(this).parents('div').find('.intro').slideToggle();
+	});
+
 	// type with letters
 
 	$('.letters').each(function() {
@@ -27,5 +31,6 @@ $(document).ready(function(){
 	  $letterWrapper.html(letterArray);
 
 	});
+
 
 });
