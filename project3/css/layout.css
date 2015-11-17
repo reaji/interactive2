@@ -61,9 +61,18 @@ html,body {
 	font-weight:300;
 	font-size: 18pt;
 	background: white;
-	opacity: 0.85;
+	opacity: 0.95;
 	z-index: +6;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .intro{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.95);  
+  }
 
 .intro:before{
 	position: relative;
@@ -151,11 +160,21 @@ a:hover {
 	position: fixed;
 	height: 75px;
 	background: white;
+	opacity: 0.95;
 	left: 0;
 	width: 100%;
 	border-bottom:4px solid #ccc;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 	z-index: +5;
 }
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .top {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
 
 .themenu{
 	position: absolute;
@@ -180,6 +199,7 @@ a:hover {
 	left:0;
     right:0;
     margin:0 auto;
+    opacity: 1.5;
 }
 
 
@@ -286,10 +306,20 @@ a:hover {
 	margin: -15px auto;
 	height: 175px;
 	background: white;
+	opacity: 0.95;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 	width: 100%;
 	border-bottom:4px solid #ccc;
 	z-index: +5;
 }
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .top {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
 
 .font-intro{
 	position: absolute;
@@ -312,10 +342,26 @@ a:hover {
 	font-weight:300;
 	font-size: 18pt;
 	background: white;
-	opacity: 0.85;
+	opacity: 0.95;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
 
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .intro {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.95);  
+  }
+
 .content{
+	margin-top: 200px;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-a{
 	margin-top: 200px;
 	max-width: 750px;
 	margin-left: auto;
