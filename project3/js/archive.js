@@ -10,6 +10,8 @@ $(document).ready(function(){
 		$(this).parents('div').find('.intro').slideToggle();
 	});
 
+	
+
 	// type with letters
 
 	$('.letters').each(function() {
