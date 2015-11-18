@@ -65,14 +65,15 @@ html,body {
 	z-index: +6;
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
+
 }
 
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+/*@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .intro{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.95);  
-  }
+  }*/
 
 .intro:before{
 	position: relative;
@@ -169,12 +170,12 @@ a:hover {
 	z-index: +5;
 }
 
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+/*@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .top {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);  
-  }
+  }*/
 
 .themenu{
 	position: absolute;
@@ -314,12 +315,12 @@ a:hover {
 	z-index: +5;
 }
 
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+/*@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .top {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);  
-  }
+  }*/
 
 .font-intro{
 	position: absolute;
@@ -347,12 +348,14 @@ a:hover {
 	backdrop-filter: blur(10px);
 }
 
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .intro {
+/*@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  
+ .intro {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.95);  
-  }
+    background-color: rgba(255, 255, 255, 0.5);  
+
+  }*/
 
 .content{
 	margin-top: 200px;
