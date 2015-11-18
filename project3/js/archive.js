@@ -37,9 +37,9 @@ $(document).ready(function(){
 
 	});
 
-if (!("ontouchstart" in document.documentElement)) {
-document.documentElement.letter += " no-touch";
-}
+// if (!("ontouchstart" in document.documentElement)) {
+// document.documentElement.letter += " no-touch";
+// }
 
 
 });
