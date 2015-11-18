@@ -30,6 +30,9 @@ $(document).ready(function(){
 
 	  $letterWrapper.html(letterArray);
 
+
+	  // document.getElementById('log').innerHTML += '<br>Some new content!';
+
 	});
 
 
