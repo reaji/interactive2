@@ -176,6 +176,7 @@ a:hover {
   transition: scale(1) ease-in-out;
     transition-duration: 0.5s;
 }
+
 .letter:hover{
 	/*-webkit-transform: rotate(360deg) scale(1.2);
     -moz-transform: rotate(360deg) scale(1.2);
