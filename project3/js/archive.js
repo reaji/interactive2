@@ -37,10 +37,10 @@ $(document).ready(function(){
 
 	});
 
-$('.letter').each(function() {
-if (!("ontouchstart" in document.documentElement)) {
-document.documentElement.letter += " no-touch";
-}
+// $('.letter').each(function() {
+// if (!("ontouchstart" in document.documentElement)) {
+// document.documentElement.letter += " no-touch";
+// }
 
-})
+// })
 });
