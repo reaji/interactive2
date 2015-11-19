@@ -71,6 +71,7 @@
 	margin-right: auto;*/
 }
 
+
 .pokeball.one {
 	margin-top: 100px;
 	height: 50px;
@@ -103,6 +104,8 @@
 	width: 100px;
 	border-radius: 0 0 100px 100px;
 }
+
+
 
 .letters.display {
 	display: none;
