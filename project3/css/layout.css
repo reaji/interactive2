@@ -68,8 +68,7 @@ html,body {
 	/*-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);*/
 	animation: intro ease-in-out 0.6s;
-
-
+	
 }
 
 /*@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {

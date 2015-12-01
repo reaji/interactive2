@@ -1,0 +1,321 @@
+*{
+	font-family: Helvetica, sans-serif;
+
+}
+
+html, body{
+	margin: 0;
+	height: 100%;
+	background: black;
+
+}
+
+/*navigation bar*/
+
+#mynav{
+	position: relative;
+	background: linear-gradient(to right, #6058a6 0%,#ed3895 100%);
+	top:0;
+	width: 100%;
+	height: 45px;
+	left:0;
+	right: 0;
+	margin: 0,auto;
+	/*opacity: 0.9;*/
+	/*border-bottom: 0.06em solid #f5f5f5;*/
+	z-index: +20;
+}
+
+#mysubnav{
+	display: none;
+	position: absolute;
+	top: 45px;
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	z-index: 5;
+	background: #000;
+	opacity: 0.8;
+}
+
+
+
+/*	-webkit-transition:  height 4s;  Safari 
+    transition: height 4s;*/
+
+.mysubmanu{
+	position: relative;
+	color: white;
+	font-size: 11pt;
+	font-weight: 600;
+	text-align: center;
+}
+
+.mysubmanu li{
+	display: inline-block;
+	padding: 16px 50px;
+	/*height: 32px;*/
+	line-height: 25pt;
+}
+
+.mysubmanu a{
+	color: white;
+}
+
+.mysubmanu a:hover{
+	color: white;
+	-webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5)
+}
+
+.mymanuicon{
+	height:50px;
+}
+
+
+.mycenter{
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.mylogo {
+	position: absolute;
+	margin-left: 10px;
+	top: 8.5px;
+	bottom: 0;
+	width: 165px;
+	height: 30px;
+	color: red;
+}
+
+.mymanu {
+	position:absolute;
+	right: 0;
+	top: 12px;
+	color: white;
+	font-size: 11pt;
+	font-weight: 600;
+}
+
+.mymanu li{
+	display: inline-block;
+	padding: 0px 15px;
+	height: 32px;
+	cursor: pointer;
+}
+
+.mymanu .myabout{
+	color: white;
+	font-size: 11pt;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.mymanu a{
+	color: white;
+	font-size: 11pt;
+	font-weight: 600;
+}
+
+.mymanu a:hover{
+	color: white;
+}
+
+
+
+
+/*.mymanu li:hover{
+	border-bottom: 3px solid yellow;
+}
+*/
+.mymanu .mybreak{
+	vertical-align: 2px;
+	font-weight: 100;
+}
+
+.mymanu .mybreak:hover{
+	border-bottom: none;
+}
+
+/*main content*/
+/*content at the main part*/
+
+#mycontent{
+	position: static;
+	max-width: 900px;
+	margin: 0 auto;
+	height: 100%;
+
+}
+
+.myfeature{
+	margin-top: 45px;
+	width: 100%;
+	height: 100vh;
+	/*background: #999;*/
+}
+
+
+.picslide {
+	position: relative;
+	display: block;
+	width: 100%;
+	/*height: 100vh;*/
+	
+}
+
+
+
+.responsiveImg1{
+	position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+	display: block;
+	width: 100%;
+	height: 94.7vh;
+	background: url('../assets/img/homephonead.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.responsiveImg2{
+	position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+	display: block;
+	width: 100%;
+	height: 94.7vh;
+	background: url('../assets/img/homecarad.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.responsiveImg3{
+	position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+	display: block;
+	width: 100%;
+	height: 94.7vh;
+	background: url('../assets/img/homeairad.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*bottom nav bar.*/
+
+#mybutt{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+	background: #333;
+	border-top: .08em solid #444;
+	border-bottom: .08em solid #444;
+	opacity: 0.9;
+}
+
+.mycopyright{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 160px;
+	height: 20px;
+	text-align: center;
+	border-right: .08em solid #444;
+}
+
+.mycopyright:hover{
+	background: #444;
+}
+
+.mycopyright a:hover{
+	text-decoration: none;
+}
+
+.mycopyright .myrightfont{
+	font-size: 8.5pt;
+	vertical-align: 1.5px;
+	/*line-height: 10px;*/
+	color:#999;
+}
+
+.mycopyright .myrightfont .mycopyrightc{
+	font-size: 6pt;
+	vertical-align: 1.5px;
+}
+
+.mysharebuttom1{
+	position: absolute;
+	right:0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-left: .08em solid #444;
+	font-weight: 900;
+	color: #777;
+}
+
+.mysharebuttom1:hover{
+	color: white;
+	background: #3b5998;
+}
+
+.mysharebuttom2{
+	position: absolute;
+	right:20px;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-left: .08em solid #444;
+	font-weight: 900;
+	color: #777;
+}
+
+.mysharebuttom2:hover{
+	color: white;
+	background: #36465d;
+}
+
+.mysharebuttom3{
+	position: absolute;
+	right:40px;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-left: .08em solid #444;
+	font-weight: 900;
+	color: #777;
+}
+
+.mysharebuttom3:hover{
+	color: white;
+	background: #3f729b;
+}
+
+.mysharebuttom4{
+	position: absolute;
+	right:60px;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-left: .08em solid #444;
+	font-weight: 900;
+	color: #777;
+}
+
+.mysharebuttom4:hover{
+	color: white;
+	background: #55acee;
+}
