@@ -1,0 +1,52 @@
+body{
+	background-color: #000;
+}
+
+
+.myappimg1{
+	position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+	display: block;
+	width: 100%;
+	height: 700px;
+	background: url('../assets/img/appdownload.png') no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.myappimg2{
+	position: relative;
+	top: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+	display: block;
+	width: 100%;
+	height: 700px;
+	background: url('../assets/img/appdownload.png') no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.myfullscreenimg{
+	width: 100%;
+}
+
+.mycentersignup1{
+	position: relative;
+	margin: 0 auto;
+	max-width: 600px;
+	top:100px;
+}
+
+.mycenterhelp1{
+	position: relative;
+	margin: 0 auto;
+	max-width: 600px;
+	top:150px;
+}
