@@ -27,18 +27,18 @@ top:750px;
 border:  15px dotted black;
 }
 
-ul {
+.content ul {
 	border:  15px solid black;
 }
 
-li {
+.content li {
 	border:  0.5px dotted black;
 }
 
-a {
+.content a {
 	border:  0.5px solid black;
 }
 
-strong {
+.content strong {
 	border:  5px solid black;
 }

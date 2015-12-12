@@ -10,13 +10,13 @@
 
 }
 
-strong {
+.content strong {
 	font-style: italic;
 	line-height: 100px;
 	font-family: 'Slackey', cursive;
 }
 
-p {
+.content p {
 	font-size: 50px;
 	text-align: right;
 	background: black;
