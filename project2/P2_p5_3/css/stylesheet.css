@@ -1,7 +1,7 @@
 
 html, body {
-	top:30%;height: 
-	100%
+	top:30%;
+    height: 100%
 }
 
 @keyframes e1 {
@@ -192,12 +192,12 @@ html, body {
     
 }
 
-a {
+.content a {
 	text-decoration: none;
 	color: black;
 }
 
-div{
+.content div{
 	position: fixed;
 	bottom: 10px;
 }
