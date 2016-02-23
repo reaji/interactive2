@@ -10,11 +10,25 @@
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 <style>
+body, html{
+	width: 620px;
+	height: 320px;
+}
+
 .content{
 	margin: 0 auto;
+	width: 100%;
+	margin: 0;
 	height: 100%;
 	/*text-align: center;*/
-	vertical-align: middle;
+	/*vertical-align: middle;*/
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Safari */
+    transform: scale(0.8,0.8);
+}
+
+.hola{
+	padding-left: 0;
 }
 </style>
 
@@ -24,17 +38,15 @@
 <body>
 <!-- Use the letters (visible) -->
 
-<table class="content">
-<tr>
-	<td>
+<div class="content">
+
 	<div class="hola">
-<div class="letters">hello</div><span>I</span>
+<div class="letters">hola</div><span>I</span>
 </div>
 <div class="hi">
 <div class="letters">hi</div><span>I</span>
-</td>
-</tr>
-</table>
+
+</div>
 <!-- Define the letters (invisible) -->
 
 <div class="letter-definition" data-character="a">
